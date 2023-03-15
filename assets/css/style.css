@@ -194,4 +194,19 @@ li h4 {
   font-size: 30px;
   color: #555;
   text-shadow: 1px 1px 2px black;
+}
+
+.add-new-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-new-item span {
+  font-size: 120px;
+  cursor: pointer;
+}
+
+.add-new-item .inputs-section {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
