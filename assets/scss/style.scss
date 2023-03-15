@@ -89,6 +89,7 @@ header ul li.active a {
 
 .product-field {
     padding: 40px 20px;
+    
 }
 
 .product-field ul {
@@ -105,7 +106,7 @@ header ul li.active a {
     background: whitesmoke;
     border-radius: 20px;
     padding: 10px;
-    margin: 200px 10px 0 10px;
+    margin: 250px 10px 0 10px;
     position: relative;
 }
 
@@ -133,6 +134,7 @@ picture img {
 .detail {
     width: 100%;
     height: 100%;
+    
 }
 
 .detail .icon {
@@ -163,7 +165,7 @@ picture img {
 .detail>strong {
     display: inherit;
     margin: 20px;
-    font-size: 30px;
+    font-size: 22px;
     letter-spacing: 2px;
     color: #555;
 }
@@ -193,7 +195,7 @@ picture img {
 li h4 {
     position: absolute;
     right: 10px;
-    top: 50%;
+    top: 90%;
     font-size: 30px;
     color: #555;
     text-shadow: 1px 1px 2px black;
