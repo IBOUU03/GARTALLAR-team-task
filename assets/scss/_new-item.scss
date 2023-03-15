@@ -1,0 +1,19 @@
+.add-new-item .add-new-item-invisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-new-item .add-new-item-invisible span{
+    font-size: 120px;
+    cursor: pointer;
+    padding: 130px;
+}
+
+.add-new-item .inputs-section{
+    display: none;
+}
+
+.add-new-item .after-click-event-section{
+    display: none;
+}
