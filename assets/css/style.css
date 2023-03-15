@@ -98,7 +98,7 @@ header ul li.active a {
   list-style: none;
   width: 23.4%;
   height: 400px;
-  transition: 0.5 all;
+  transition: 0.5s all;
   background: whitesmoke;
   border-radius: 20px;
   padding: 10px;
@@ -196,17 +196,22 @@ li h4 {
   text-shadow: 1px 1px 2px black;
 }
 
-.add-new-item {
+.add-new-item .add-new-item-invisible {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.add-new-item span {
+.add-new-item .add-new-item-invisible span {
   font-size: 120px;
   cursor: pointer;
+  padding: 130px;
 }
 
 .add-new-item .inputs-section {
+  display: none;
+}
+
+.add-new-item .after-click-event-section {
   display: none;
 }/*# sourceMappingURL=style.css.map */
